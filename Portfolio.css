@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:robotoo slab;   
+}
+body{
+    background: black;
+    color: #fff;
+    
+}
+#header{
+
+    height: 100vh;
+    background-image: url(bgImg_blur.png);
+    background-repeat: no-repeat;  
+    background-size:1544px 754px ;
+}
+.container{
+    padding: 10px 10%;
+}  
+nav{
+  
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;  
+}
+nav ul li a{ 
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+} 
+nav{
+    margin-left: 650px;
+    position: fixed;
+    top: 10px;
+ } 
+.header-text{
+    margin-top:150px ;
+    font-size: 25px;
+    
+}
+.header-text h1{
+    font-size: 80px;
+}
+.header-text h6{
+    margin:5px ;
+    margin-left: 35px;
+    font-size: 30px;
+}
+.header-text h1 span{
+    color: rgb(255, 0, 0);
+    position: relative;
+    transition: 1.5s; 
+}
+/* -------------------------about------------------------- */
+#about{
+    width: 1154px;
+    height: 756px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    margin-top: 75px;
+    margin-left: 100px; 
+    flex-basis: 30%;
+}
+.about-col-1 img{
+    
+    width: 90%;
+    height: 70%;
+    border-radius: 15px;
+}
+.about-col-2{
+    padding-left: 10%;
+    flex-basis: 45%;
+}
+.about-col-2 ul{
+    line-height: 150%;
+}
+.sub-title{
+    margin-bottom:20px ;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    /* flex-basis: 30%; */
+}
+.about-col-2 p{
+    font-size: 20px;
+    line-height: 150%;
+}
+.about-col-2 li{
+    font-size: 20px;
+    line-height: 150%;
+}
+.tab-title-1{
+    /* flex-basis:40% ; */
+    margin:20px ;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+}
+.tab-title-2{
+    display: flex;
+    justify-content: space-between;
+    /* flex-basis:40% ; */
+    margin:20px ;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 0, 0);
+}
+
+/* ------------------------------------Education--------------------------------------------- */
+#education{
+    width: 1154px;
+    height: 756px;
+}
+table{
+    padding: 100px 250px; 
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.edu{
+    margin-left: 500px;
+}
+.ug{
+    
+    width: 50%;
+    border-right: solid;
+    padding: 26px;
+    line-height: 150%;
+}
+ .scl{
+    padding: 50px;
+    line-height: 150%;
+}
+.ug h3 p{
+    padding-top: 100px;
+    font-size: 40px;
+}
+/* ----------------------------------------Projects---------------------------------------------- */
+.page{
+    padding-top: 75px;
+    padding-left: 100px;
+    color: rgb(161, 157, 65);
+}
+.robobaot{
+    width: 1154px;
+    height: 756px;
+}
+.ebike{
+    width: 1154px;
+    height: 756px;
+}
